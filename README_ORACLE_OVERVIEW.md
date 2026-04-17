@@ -78,7 +78,7 @@ At a high level, ORACLE operates as follows:
 2. Build the current circuit state from observed specs and design parameters
 3. Compute a normalized multi-objective reward vector
 4. Use a preference-conditioned MO-DDQN to score actions
-5. Optionally filter harmful or low-value actions using LLM-guided masking
+5. filter harmful or low-value actions using LLM-guided masking
 6. Simulate the updated circuit
 7. Repeat until the design satisfies the target or the episode ends
 
